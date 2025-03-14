@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scroll Animation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1>Logo</h1>
+            <h1>Innovate</h1>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="#promo">Promo</a></li>
+                <li><a href="#promo">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="hero">
         <div class="hero-content">
-            <h1>Welcome to Our Platform</h1>
-            <p>Discover amazing features with smooth animations</p>
+            <h1>Transform Your Digital Experience</h1>
+            <p>Empower your business with cutting-edge solutions that drive growth and innovation</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Get Started Free</a>
+                <a href="#" class="btn btn-secondary">Watch Demo</a>
+            </div>
         </div>
     </section>
 
@@ -35,16 +43,133 @@
         </div>
     </section>
 
+    <section id="feature-details">
+        <div class="feature-detail-container">
+            <div class="feature-detail reveal-item">
+                <div class="feature-copy">
+                    <h2>AI-Powered Insights</h2>
+                    <p>Leverage the power of artificial intelligence to gain deep insights into your business. Our advanced algorithms analyze your data in real-time, providing actionable recommendations that drive growth.</p>
+                    <ul class="feature-list">
+                        <li>Real-time data analysis</li>
+                        <li>Predictive analytics</li>
+                        <li>Custom AI models</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <img src="https://picsum.photos/600/400?random=1" alt="AI Analytics Dashboard">
+                </div>
+            </div>
+
+            <div class="feature-detail reveal-item">
+                <div class="feature-copy">
+                    <h2>Seamless Integration</h2>
+                    <p>Connect with your favorite tools and platforms effortlessly. Our platform integrates with over 100+ popular services, ensuring your workflow remains uninterrupted.</p>
+                    <ul class="feature-list">
+                        <li>One-click integration</li>
+                        <li>API access</li>
+                        <li>Custom webhooks</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <img src="https://picsum.photos/600/400?random=2" alt="Integration Ecosystem">
+                </div>
+            </div>
+
+            <div class="feature-detail reveal-item">
+                <div class="feature-copy">
+                    <h2>Advanced Security</h2>
+                    <p>Rest easy knowing your data is protected by enterprise-grade security. Our platform is built with multiple layers of encryption and compliance with global security standards.</p>
+                    <ul class="feature-list">
+                        <li>End-to-end encryption</li>
+                        <li>SOC 2 compliance</li>
+                        <li>24/7 monitoring</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <img src="https://picsum.photos/600/400?random=3" alt="Security Dashboard">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="promo">
         <div class="promo-content">
-            <h2>Special Offer</h2>
-            <p>Get started today with our amazing deals!</p>
+            <span class="promo-badge">Limited Time Offer</span>
+            <h2>Start Your Journey Today</h2>
+            <p>Get 30% off on all annual plans when you sign up this month</p>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$29<span>/month</span></div>
+                    <ul>
+                        <li>Basic Features</li>
+                        <li>5 Team Members</li>
+                        <li>10GB Storage</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Choose Plan</a>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Professional</h3>
+                    <div class="price">$79<span>/month</span></div>
+                    <ul>
+                        <li>Advanced Features</li>
+                        <li>Unlimited Team Members</li>
+                        <li>100GB Storage</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Choose Plan</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="footer-content">
-            <p>&copy; 2024 Your Company. All rights reserved.</p>
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Innovate. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
         </div>
     </footer>
 
